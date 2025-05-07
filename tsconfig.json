@@ -1,0 +1,23 @@
+{
+  "extends": "@tsconfig/recommended",
+
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ESNext",
+    "moduleSuffixes": [".ts", ".tsx", ""],
+
+    "strict": true,
+
+    "jsx": "react-jsx",
+    "allowImportingTsExtensions": true, // for .tsx
+
+    "paths": {}
+  },
+
+  "exclude": ["node_modules", "packages/*/dist"],
+}

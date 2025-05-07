@@ -1,0 +1,30 @@
+{
+  "name": "react-explodable",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Vik R",
+    "email": "vik120@icloud.com",
+    "url": "http://github.com/vikr01/"
+  },
+  "homepage": "https://github.com/vikr01/react-explodable",
+  "repository": "https://github.com/vikr01/react-explodable/tree/master/packages/react-explodable",
+  "bugs": {
+    "url": "https://github.com/vikr01/react-explodable/issues"
+  },
+  "scripts": {
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "react hook",
+    "react component",
+    "picture-in-picture",
+    "PIP",
+    "dynamic island"
+  ]
+}
