@@ -1,23 +1,27 @@
 {
-  "extends": "@tsconfig/recommended",
+  "extends": "@tsconfig/recommended/tsconfig.json",
 
   "compilerOptions": {
-    "noEmit": true,
-    "rootDir": ".",
-    "baseUrl": ".",
-
-    "module": "ESNext",
+    "target": "ES2020",
+    "module": "Preserve",
     "moduleResolution": "Bundler",
-    "target": "ESNext",
     "moduleSuffixes": [".ts", ".tsx", ""],
+    "lib": ["ES2020"],
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
 
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
 
-    "jsx": "react-jsx",
-    "allowImportingTsExtensions": true, // for .tsx
-
-    "paths": {}
+    "allowImportingTsExtensions": true,
+    "noEmit": true
   },
 
-  "exclude": ["node_modules", "packages/*/dist"],
+  "exclude": [
+    "node_modules",
+    "packages/*/dist",
+  ],
 }

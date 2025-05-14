@@ -3,9 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "Vik R",
+    "email": "vik120@icloud.com",
+    "url": "http://github.com/vikr01/"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build-example": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -16,5 +21,12 @@
   "devDependencies": {
     "@vitejs/plugin-react-swc": "^3.9.0",
     "vite": "^6.3.5"
-  }
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "typescript",
+    "suspense",
+    "hook"
+  ]
 }
