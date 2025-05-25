@@ -18,6 +18,7 @@
     "lint-fix": "eslint . --fix",
     "lint-specific": "eslint",
     "prepublishOnly": "npm run build",
+    "start": "npm run dev --workspace=react-explodable-example",
     "test": "vitest",
     "typecheck": "tsc -p tsconfig.json"
   },
