@@ -8,8 +8,7 @@ const tsConfigPath = require.resolve("./tsconfig.json");
 export const tsupBaseConfig: Options = {
   entry: ["src", "!src/**/__tests__/**", "!src/**/*.test.*"],
   outDir: "dist",
-  format: ["esm", "cjs"],
-  target: "es2020",
+  format: ["esm"],
   sourcemap: false,
   splitting: false,
   minify: false,
@@ -17,13 +16,7 @@ export const tsupBaseConfig: Options = {
     "process.env.NODE_ENV": JSON.stringify("production"),
   },
 
-  dts: {
-    resolve: true,
-    compilerOptions: {
-      module: "Preserve",
-      moduleResolution: "Bundler",
-    },
-  },
+  dts: true,
   clean: true,
   skipNodeModulesBundle: true,
 

@@ -18,14 +18,6 @@
         "dist"
       ],
       "cache": true
-    },
-    
-    "start": {
-      "dependsOn": [
-        "^build"
-      ],
-      "cache": true,
-      "persistent": true
     }
   }
 }

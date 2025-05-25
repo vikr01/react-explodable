@@ -1,22 +1,10 @@
 {
-  "extends": "@tsconfig/recommended/tsconfig.json",
+  "extends": "@tsconfig/node-lts/tsconfig.json",
 
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "Preserve",
-    "moduleResolution": "Bundler",
-    "moduleSuffixes": [".ts", ".tsx", ""],
-    "lib": ["ES2020"],
     "jsx": "react-jsx",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
 
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-
-    "allowImportingTsExtensions": true,
     "noEmit": true
   },
 
