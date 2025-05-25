@@ -2,7 +2,8 @@
   "extends": "@tsconfig/node-lts/tsconfig.json",
 
   "compilerOptions": {
-    "jsx": "react-jsx",
+    "lib": ["dom"],
+    "jsx": "react",
     "resolveJsonModule": true,
 
     "noEmit": true
