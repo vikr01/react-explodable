@@ -14,8 +14,8 @@
   "scripts": {
     "build": "turbo run build",
     "clean": "rimraf --glob \"packages/*/dist\" \"**/*.tsbuildinfo\" \"**/.turbo\"",
-    "lint": "npm run lint-specific .",
-    "lint-fix": "eslint . --fix",
+    "lint": "npm run lint-specific -- .",
+    "lint-fix": "npm run lint-specific -- . --fix",
     "lint-specific": "eslint",
     "prepublishOnly": "npm run build",
     "start": "npm run dev --workspace=react-explodable-example",
