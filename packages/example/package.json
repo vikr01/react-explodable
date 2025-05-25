@@ -1,7 +1,6 @@
 {
   "name": "react-explodable-example",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "author": {
     "name": "Vik R",
@@ -28,5 +27,17 @@
     "typescript",
     "suspense",
     "react hooks"
-  ]
+  ],
+  "homepage": "https://github.com/vikr01/react-explodable/tree/HEAD/packages/example",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikr01/react-explodable.git",
+    "directory": "packages/example"
+  },
+  "bugs": {
+    "url": "https://github.com/vikr01/react-explodable/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }

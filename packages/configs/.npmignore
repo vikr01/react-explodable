@@ -1,5 +1,5 @@
-# Compiled files
-dist
+# Source files
+src/
 
 # Generated files
 .DS_Store
@@ -33,3 +33,6 @@ yarn.lock
 
 # Nx
 .nx/
+
+# Tsup
+tsup.*

@@ -1,12 +1,15 @@
 {
   "name": "react-explodable",
-  "version": "0.0.0",
+  "version": "0.0.0-alpha.0",
   "main": "dist/index.js",
   "type": "module",
   "author": {
     "name": "Vik R",
     "email": "vik120@icloud.com",
     "url": "http://github.com/vikr01/"
+  },
+  "scripts": {
+    "build": "tsup"
   },
   "homepage": "https://github.com/vikr01/react-explodable/tree/HEAD/packages/react-explodable",
   "repository": {
@@ -16,9 +19,6 @@
   },
   "bugs": {
     "url": "https://github.com/vikr01/react-explodable/issues"
-  },
-  "scripts": {
-    "build": "tsup"
   },
   "license": "MIT",
   "engines": {
